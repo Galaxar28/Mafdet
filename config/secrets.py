@@ -13,7 +13,8 @@ class Secrets:
         # lines form original pollmaster
         # self.mongo_db = 'mongodb://localhost:27017/pollmaster'
 
-        self.bot_token = 'NjE3NDAwMjIwMjk2NDEzMTk2.XWqoCA.jT_K8Z3fUumxaEVnGSQEcDog8hw' # mafdet token
+        # Oops - don't put the bot token in GitHub!  Discord found it when uploaded and reset the token.
+        self.bot_token = 'bot_token_goes_here' # mafdet token
 
         # self.mode = 'development' # or production
 

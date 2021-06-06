@@ -1,0 +1,7 @@
+display_name	nick	nick w/o diacritics	alliance	top_role	name#discriminator	joined_at	created_at	id	guild_permissiona	all_roles
+JustATestServer_member_records.txt
+Newti	None	none	none	Admin	Newti#0654	Thu, Sep 05, 2019 at 12:12:39 PM	Sat, Nov 21, 2015 at 6:08:42 PM	117687652278468610	2146959359	Admin	PollAdmin		
+galax	galax	galax	none	Admin	Galaxar#6952	Fri, Aug 02, 2019 at 4:57:17 AM	Sun, Apr 15, 2018 at 8:11:50 PM	435170406748520448	2146959359	Admin	Admiral	Advanced member	Commodore	General member	PollAdmin	PollUser	new member		
+bñråggîé [NØÜR]	bñråggîé [NØÜR]	bnraggie [NOUR]	NOUR	@everyone	bnraggie#7920	Fri, Nov 08, 2019 at 12:43:01 PM	Sun, Apr 07, 2019 at 2:26:47 PM	564456042914643969	68160		
+PollMaster2	None	none	none	Admiral	PollMaster2#8791	Mon, Aug 26, 2019 at 12:00:55 PM	Mon, Aug 26, 2019 at 11:40:38 AM	615510919308640266	1074134592	Admiral	PollMaster2		
+Mafdet	None	none	none	General member	Mafdet#3656	Sat, Aug 31, 2019 at 5:06:19 PM	Sat, Aug 31, 2019 at 4:48:03 PM	617400220296413196	2146959359	General member	Mafdet		

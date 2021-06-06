@@ -1,0 +1,20 @@
+# Format changes depending on the reference (open space, planet, etc.) 
+#   player without alliance, in same system
+#     [player name no alliance X:-342 Y:34] 
+#   player with alliance, in same system
+#     [[init] player name X:-234 Y:-342] 
+#   systems always have "System" in the coordinates
+#     [system name System S:23421] 
+#   places in space have "Space" in the coordinates
+#     [system Space S:23445 X:4.234233 Y:-23.23422] 
+#   planet where bases can relocate
+#     [Station Housing planet name S:12345 X:-234.23 Y:234.23424] 
+#   "thing" in open space
+#     [3★ Raw Gas Mine S:1379808121 X:677.123 Y:167] 
+#   player with alliance in different system]
+#     [[FŁRK] Maddkelt S:1911521293 X:191.2568 Y:-367.3874] 
+#   generalized format
+#     [<object name> S:<system number> X:<+/- x.x coordinate> Y:<+/- y.y coordinate>]
+#     where <object name> can be
+#     [text] or [[inits] text]
+

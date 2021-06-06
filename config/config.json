@@ -1,0 +1,13 @@
+{
+    "owner": 435170406748520448,
+    "super_secret_admin": "Galaxar",
+    "token": "NjE3NDAwMjIwMjk2NDEzMTk2.XWqoCA.jT_K8Z3fUumxaEVnGSQEcDog8hw",
+    "bot_name": "Mafdet",
+    "bot_avatar": "avatar.png",
+    "command_prefix": ".",
+    "commands_on_edit": true,
+    "log_messages": true,
+    "log_edits": true,
+    "log_commands": true,
+    "loglvl": "DEBUG"
+}

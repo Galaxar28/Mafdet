@@ -1,0 +1,11 @@
+This role can:
+12345678901234567890
+Create invites  : Y 
+Kick members    : Y
+Ban members     : Y
+Is admin        : Y
+Manage channels : Y
+Read channels   : Y
+Send channels   : Y
+Read history    : Y
+Manage nicknames: Y

@@ -1,0 +1,10 @@
+1. add separate logger to capture guild/channel events like members joining, kicking, leaving, messages sent, deleted,
+edited, server settings changed, etc.
+
+2. create mulit-step command (like redalert)
+
+3. add guild, channel, calling_user, command to logs
+
+4. what to do when someone sends odd message to bot?
+
+5. coordinates are like this "[S:75020 X:595.2095 Y:1.7936]"

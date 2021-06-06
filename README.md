@@ -1,0 +1,2 @@
+# Mafdet
+Discord bot

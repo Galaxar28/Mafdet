@@ -1,6 +1,9 @@
 import discord
 
-from config.secrets import SECRETS
+# Don't need SECRETS when running repl.it
+# use repl.it environment parameters instead
+
+# from config.secrets import SECRETS
 
 class Settings:
     def __init__(self):
@@ -18,6 +21,7 @@ class Settings:
         # self.invite_link = \
 #             'https://discordapp.com/api/oauth2/authorize?client_id=444831720659877889&permissions=126016&scope=bot'
 
+''' don't need with repl.it
         self.load_secrets()
 
     def load_secrets(self):
@@ -28,5 +32,5 @@ class Settings:
         self.bot_token = SECRETS.bot_token
 
         # self.mode = SECRETS.mode
-
+'''
 SETTINGS = Settings()

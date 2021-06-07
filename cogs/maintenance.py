@@ -9,7 +9,11 @@ class botMaintenance(commands.Cog, command_attrs=dict(hidden=True)):
 
     # every command here needs owner permissions
     async def cog_check(self, ctx):
-        #logger.info('cog_check: {}'.format(self.bot.owner_id == ctx.author.id))
+        logger.info('self.bot.owner_id is {}'.format(self.bot.owner_id))
+        logger.info('cog_check: bot.owner_id type: {}'.format(type(self.bot.owner_id)))
+        logger.info('ctx.author.id is {}'.format(ctx.author.id))
+        logger.info('cog_check: author.id type: {}'.format(type(ctx.author.id)))
+        logger.info('cog_check: {}'.format(self.bot.owner_id == ctx.author.id))
         return self.bot.owner_id == ctx.author.id
     # end of def cog_check
 
@@ -19,7 +23,7 @@ class botMaintenance(commands.Cog, command_attrs=dict(hidden=True)):
             await ctx.send("Only the owner can use this module. Join the support discord server if you are having "
                            "any problems. This usage has been logged.")
             logger.warning(f'User {ctx.author} ({ctx.author.id}) has tried to access a restricted '
-                           f'command via {ctx.message.content}.')
+                           f'command: {ctx.message.content}.')
         else:
             logger.warning('cog_command_error: {}'.format(error))
             raise error

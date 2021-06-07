@@ -1,17 +1,25 @@
 import sys
 import logging
 import logging.handlers
-# import os
+import os
 # import asyncio
 # import glob
 # import traceback
 import discord
 
+# from keep_alive import keep_alive
+
 from discord.ext import commands
 from config.settings import SETTINGS
 
-print('Starting up.')
+# for repl.it web server to keep the bot running
+# in conjunction with uptimerobot.com
+from flask import Flask
+from threading import Thread
+# import os # imported above for other functions
+import time
 
+print('Starting up.')
 
 #
 # CONFIGURE LOGS
@@ -127,11 +135,17 @@ logger.info('Main: Starting bot')
 intents = discord.Intents.default()
 intents.members = True
 
+# when self hosted, owner_id was
+#    'owner_id' : SETTINGS.owner_id,
+# with repl.it, use 
+#    int(os.environ['owner_id'])
+# because repl.it environment variables are strings
+
 bot_config = {
     'command_prefix'        : '.',
     'commands_on_edit'      : True,
     'status'                : discord.Status.online,
-    'owner_id'              : SETTINGS.owner_id,
+    'owner_id'              : int(os.environ['owner_id']),
     'fetch_offline_members' : False,
     'max_messages'          : 15000,
     'case_insensitive'      : True,
@@ -270,10 +284,56 @@ async def after_ping_command(ctx):
     logger.info('Main: Executing ping.after_invoke')
     pass
 '''
-
 # end of ping command
 
+# start Flask web server so uptimerobot can keep the bot running
+# on repl.it.
+# if self hosted, then Flask and uptimerobot isn't needed.
+
+app = Flask('')
+
+@app.route('/')
+def home():
+  return "Bot is online"
+
+@app.route('/bastet-goddess.jpg')
+def mafdet_jpeg():
+  # this works
+  # return "Duh!"
+
+  # this does not work
+  return send_file('bastet-goddess.jpg', mimetype='image/jpeg')
+
+def run(stop):
+  while True:
+    app.run(host='0.0.0.0',port=8080)
+    if stop():
+      break
+
+def keep_alive(stop_threads):
+  t = Thread(target=run, args =(lambda : stop_threads, ))
+  t.start()
+
+stop_threads = False
+flaskthread = Thread(target=run, args =(lambda : stop_threads, ))
+flaskthread.start()
+logger.info('Web server started')
+
+
 #
-# Turn it on!
+# Now, turn on the bot!
 #
-bot.run(SETTINGS.bot_token)
+
+# Old local iMac way:
+# bot.run(SETTINGS.bot_token)
+# new repl.it way:
+my_secret = os.environ['TOKEN']
+bot.run(my_secret)
+
+# if we get here, then the bot has shut down
+# quit the web server and stop
+stop_threads = True
+flaskthread.join()
+logger.info('Web server stopped')
+logger.info('Bot stopped')
+print('Normal execution ended')

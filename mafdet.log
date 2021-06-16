@@ -201,3 +201,49 @@
 2021-06-16 17:48:09,446 - INFO - _log - 225 - 172.18.0.1 - - [16/Jun/2021 17:48:09] "GET / HTTP/1.1" 200 -
 2021-06-16 17:49:41,226 - INFO - hello_world - 293 - inside hello_world
 2021-06-16 17:49:41,227 - INFO - _log - 225 - 172.18.0.1 - - [16/Jun/2021 17:49:41] "HEAD / HTTP/1.1" 200 -
+2021-06-16 18:09:48,764 - INFO - <module> - 51 - Main: Logs started.
+2021-06-16 18:09:48,780 - INFO - <module> - 124 - Main: Starting bot
+2021-06-16 18:09:48,855 - INFO - <module> - 179 - Main: coglist: ['admin.py', 'cool.py', 'errorhandler.py', 'guild_listener.py', 'maintenance.py', 'member_listener.py', 'newshow.py', 'ormd_listener.py', 'parmtest.py', 'presence.py', 'redalert.py', 'showme.py', 'whoismafdet.py']
+2021-06-16 18:09:48,894 - INFO - <module> - 192 - Main: Extensions loaded
+2021-06-16 18:09:48,895 - INFO - <module> - 288 - create app
+2021-06-16 18:09:48,897 - INFO - <module> - 303 - start keep alive server
+2021-06-16 18:09:48,906 - WARNING - _log - 225 -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2021-06-16 18:09:48,907 - INFO - _log - 225 -  * Running on http://172.18.0.147:8000/ (Press CTRL+C to quit)
+2021-06-16 18:09:48,918 - INFO - <module> - 305 - keep aliv server started
+2021-06-16 18:09:48,952 - INFO - hello_world - 293 - inside hello_world
+2021-06-16 18:09:48,956 - INFO - _log - 225 - 172.18.0.1 - - [16/Jun/2021 18:09:48] "GET / HTTP/1.1" 200 -
+2021-06-16 18:09:49,039 - INFO - hello_world - 293 - inside hello_world
+2021-06-16 18:09:49,041 - INFO - _log - 225 - 172.18.0.1 - - [16/Jun/2021 18:09:49] "GET / HTTP/1.1" 200 -
+2021-06-16 18:09:52,531 - INFO - on_ready - 224 - Main: Bot logged in and ready!
+2021-06-16 18:09:52,531 - INFO - on_ready - 225 - Main: username: Mafdet
+2021-06-16 18:09:52,531 - INFO - on_ready - 226 - Main: id: 617400220296413196
+2021-06-16 18:09:52,531 - INFO - on_ready - 227 - Main: owner: 435170406748520448
+2021-06-16 18:09:52,532 - INFO - on_ready - 237 - Main: Setting presence
+2021-06-16 18:10:20,577 - INFO - hello_world - 293 - inside hello_world
+2021-06-16 18:10:20,579 - INFO - _log - 225 - 172.18.0.1 - - [16/Jun/2021 18:10:20] "GET / HTTP/1.1" 200 -
+2021-06-16 18:10:27,230 - INFO - hello_world - 293 - inside hello_world
+2021-06-16 18:10:27,231 - INFO - _log - 225 - 172.18.0.1 - - [16/Jun/2021 18:10:27] "GET / HTTP/1.1" 200 -
+2021-06-16 18:10:33,612 - INFO - hello_world - 293 - inside hello_world
+2021-06-16 18:10:33,613 - INFO - _log - 225 - 172.18.0.1 - - [16/Jun/2021 18:10:33] "GET / HTTP/1.1" 200 -
+2021-06-16 18:10:34,623 - INFO - _log - 225 - 172.18.0.1 - - [16/Jun/2021 18:10:34] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-06-16 18:11:31,750 - INFO - <module> - 313 - Main: after bot.run
+2021-06-16 18:11:54,481 - INFO - <module> - 51 - Main: Logs started.
+2021-06-16 18:11:54,481 - INFO - <module> - 124 - Main: Starting bot
+2021-06-16 18:11:54,506 - INFO - <module> - 179 - Main: coglist: ['admin.py', 'cool.py', 'errorhandler.py', 'guild_listener.py', 'maintenance.py', 'member_listener.py', 'newshow.py', 'ormd_listener.py', 'parmtest.py', 'presence.py', 'redalert.py', 'showme.py', 'whoismafdet.py']
+2021-06-16 18:11:54,566 - INFO - <module> - 192 - Main: Extensions loaded
+2021-06-16 18:11:54,567 - INFO - <module> - 288 - create app
+2021-06-16 18:11:54,570 - INFO - <module> - 303 - start keep alive server
+2021-06-16 18:11:54,572 - INFO - <module> - 305 - keep aliv server started
+2021-06-16 18:11:54,588 - WARNING - _log - 225 -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2021-06-16 18:11:54,589 - INFO - _log - 225 -  * Running on http://172.18.0.147:8000/ (Press CTRL+C to quit)
+2021-06-16 18:11:54,674 - INFO - hello_world - 293 - inside hello_world
+2021-06-16 18:11:54,675 - INFO - _log - 225 - 172.18.0.1 - - [16/Jun/2021 18:11:54] "GET / HTTP/1.1" 200 -
+2021-06-16 18:11:57,052 - INFO - on_ready - 224 - Main: Bot logged in and ready!
+2021-06-16 18:11:57,052 - INFO - on_ready - 225 - Main: username: Mafdet
+2021-06-16 18:11:57,052 - INFO - on_ready - 226 - Main: id: 617400220296413196
+2021-06-16 18:11:57,053 - INFO - on_ready - 227 - Main: owner: 435170406748520448
+2021-06-16 18:11:57,053 - INFO - on_ready - 237 - Main: Setting presence
+2021-06-16 18:12:13,821 - INFO - hello_world - 293 - inside hello_world
+2021-06-16 18:12:13,822 - INFO - _log - 225 - 172.18.0.1 - - [16/Jun/2021 18:12:13] "GET / HTTP/1.1" 200 -

@@ -13,7 +13,7 @@ class Secrets:
         # lines form original pollmaster
         # self.mongo_db = 'mongodb://localhost:27017/pollmaster'
 
-        self.bot_token = 'NjE3NDAwMjIwMjk2NDEzMTk2.XWqoCA.jT_K8Z3fUumxaEVnGSQEcDog8hw' # mafdet token
+        self.bot_token = '' # mafdet token
 
         # self.mode = 'development' # or production
 

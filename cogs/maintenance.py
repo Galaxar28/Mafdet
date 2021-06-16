@@ -1,5 +1,6 @@
 import logging
 
+import discord
 from discord.ext import commands
 
 
@@ -33,6 +34,8 @@ class botMaintenance(commands.Cog, command_attrs=dict(hidden=True)):
         """"""
         logger.info("Shutting down.")
         await ctx.send("Shutting down...\n\U0001f44b")
+        # logout() is deprecated, but the discord.Client.close(self) generates errors
+        # await discord.Client.close(self)
         await self.bot.logout()
     # end of def quitbot
 

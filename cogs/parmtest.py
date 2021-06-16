@@ -1,6 +1,6 @@
 # additional typing checking from
 # https://github.com/FelixTheC/strongtyping
-from strongtyping.strong_typing import match_typing
+# from strongtyping.strong_typing import match_typing
 
 import logging
 import discord

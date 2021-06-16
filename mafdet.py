@@ -10,6 +10,16 @@ import discord
 from discord.ext import commands
 from config.settings import SETTINGS
 
+# add threaded web server so repl.it will stay active
+# with help from uptimerobot
+from flask import Flask
+import threading
+import os
+import time
+
+# from multiprocessing import Process
+
+
 print('Starting up.')
 
 
@@ -131,7 +141,7 @@ bot_config = {
     'command_prefix'        : '.',
     'commands_on_edit'      : True,
     'status'                : discord.Status.online,
-    'owner_id'              : SETTINGS.owner_id,
+    'owner_id'              : int(os.environ['owner_id']),
     'fetch_offline_members' : False,
     'max_messages'          : 15000,
     'case_insensitive'      : True,
@@ -270,10 +280,36 @@ async def after_ping_command(ctx):
     logger.info('Main: Executing ping.after_invoke')
     pass
 '''
-
 # end of ping command
 
 #
-# Turn it on!
+# start up keep alive Flask server
 #
-bot.run(SETTINGS.bot_token)
+logger.info('create app')
+app = Flask('mafdet_keep_alive_server')
+
+@app.route("/")
+def hello_world():
+    logger.info('inside hello_world')
+    return "<p>Hello, World!</p>"
+
+def run():
+  app.run(host='0.0.0.0',port=8000)
+
+def keep_alive():  
+    t = threading.Thread(target=run)
+    t.start()
+
+logger.info('start keep alive server')
+keep_alive()
+logger.info('keep aliv server started')
+
+#
+# Turn on the bot!
+#
+bot_token = os.environ['my_token']
+bot.run(bot_token)
+
+logger.info('Main: after bot.run')
+
+exit()

@@ -13,6 +13,8 @@ from config.settings import SETTINGS
 # add threaded web server so repl.it will stay active
 # with help from uptimerobot
 from flask import Flask
+from flask import send_file
+
 import threading
 import os
 import time
@@ -292,6 +294,16 @@ app = Flask('mafdet_keep_alive_server')
 def hello_world():
     logger.info('inside hello_world')
     return "<p>Hello, World!</p>"
+
+@app.route("/test", methods=['GET'])
+def test():
+    logger.info('inside flask test')
+    return send_file(
+            'hb30.4.2.jpg',
+            as_attachment=False,
+            attachment_filename='hb30.4.2.jpg',
+            mimetype='image/jpeg'
+    )
 
 def run():
   app.run(host='0.0.0.0',port=8000)

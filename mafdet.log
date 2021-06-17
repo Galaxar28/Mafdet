@@ -247,3 +247,151 @@
 2021-06-16 18:11:57,053 - INFO - on_ready - 237 - Main: Setting presence
 2021-06-16 18:12:13,821 - INFO - hello_world - 293 - inside hello_world
 2021-06-16 18:12:13,822 - INFO - _log - 225 - 172.18.0.1 - - [16/Jun/2021 18:12:13] "GET / HTTP/1.1" 200 -
+2021-06-16 18:24:41,276 - INFO - hello_world - 293 - inside hello_world
+2021-06-16 18:24:41,277 - INFO - _log - 225 - 172.18.0.1 - - [16/Jun/2021 18:24:41] "HEAD / HTTP/1.1" 200 -
+2021-06-17 00:50:08,955 - INFO - <module> - 51 - Main: Logs started.
+2021-06-17 00:50:08,956 - INFO - <module> - 124 - Main: Starting bot
+2021-06-17 00:50:09,042 - INFO - <module> - 179 - Main: coglist: ['admin.py', 'cool.py', 'errorhandler.py', 'guild_listener.py', 'maintenance.py', 'member_listener.py', 'newshow.py', 'ormd_listener.py', 'parmtest.py', 'presence.py', 'redalert.py', 'showme.py', 'whoismafdet.py']
+2021-06-17 00:50:09,058 - INFO - <module> - 192 - Main: Extensions loaded
+2021-06-17 00:50:09,059 - INFO - <module> - 288 - create app
+2021-06-17 00:50:09,114 - INFO - <module> - 303 - start keep alive server
+2021-06-17 00:50:09,115 - INFO - <module> - 305 - keep aliv server started
+2021-06-17 00:50:09,121 - WARNING - _log - 225 -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2021-06-17 00:50:09,122 - INFO - _log - 225 -  * Running on http://172.18.0.140:8000/ (Press CTRL+C to quit)
+2021-06-17 00:50:09,177 - INFO - hello_world - 293 - inside hello_world
+2021-06-17 00:50:09,178 - INFO - _log - 225 - 172.18.0.1 - - [17/Jun/2021 00:50:09] "GET / HTTP/1.1" 200 -
+2021-06-17 00:50:12,333 - INFO - on_ready - 224 - Main: Bot logged in and ready!
+2021-06-17 00:50:12,333 - INFO - on_ready - 225 - Main: username: Mafdet
+2021-06-17 00:50:12,333 - INFO - on_ready - 226 - Main: id: 617400220296413196
+2021-06-17 00:50:12,333 - INFO - on_ready - 227 - Main: owner: 435170406748520448
+2021-06-17 00:50:12,334 - INFO - on_ready - 237 - Main: Setting presence
+2021-06-17 01:24:41,121 - INFO - hello_world - 293 - inside hello_world
+2021-06-17 01:24:41,122 - INFO - _log - 225 - 172.18.0.1 - - [17/Jun/2021 01:24:41] "HEAD / HTTP/1.1" 200 -
+2021-06-17 01:59:41,197 - INFO - hello_world - 293 - inside hello_world
+2021-06-17 01:59:41,198 - INFO - _log - 225 - 172.18.0.1 - - [17/Jun/2021 01:59:41] "HEAD / HTTP/1.1" 200 -
+2021-06-17 02:11:04,820 - INFO - hello_world - 293 - inside hello_world
+2021-06-17 02:11:04,821 - INFO - _log - 225 - 172.18.0.1 - - [17/Jun/2021 02:11:04] "GET / HTTP/1.1" 200 -
+2021-06-17 02:12:25,762 - INFO - logme - 109 - [JustATestServer | mafdet-commands] Galaxar/Galaxar: inside ping
+2021-06-17 02:13:34,862 - INFO - hello_world - 293 - inside hello_world
+2021-06-17 02:13:34,863 - INFO - _log - 225 - 172.18.0.1 - - [17/Jun/2021 02:13:34] "GET / HTTP/1.1" 200 -
+2021-06-17 02:13:34,913 - INFO - _log - 225 - 172.18.0.1 - - [17/Jun/2021 02:13:34] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-06-17 02:13:40,834 - INFO - hello_world - 293 - inside hello_world
+2021-06-17 02:13:40,834 - INFO - _log - 225 - 172.18.0.1 - - [17/Jun/2021 02:13:40] "GET / HTTP/1.1" 200 -
+2021-06-17 02:13:40,885 - INFO - _log - 225 - 172.18.0.1 - - [17/Jun/2021 02:13:40] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-06-17 02:13:42,382 - INFO - _log - 225 - 172.18.0.1 - - [17/Jun/2021 02:13:42] "[33mGET /test HTTP/1.1[0m" 404 -
+2021-06-17 02:15:03,913 - INFO - <module> - 51 - Main: Logs started.
+2021-06-17 02:15:03,914 - INFO - <module> - 124 - Main: Starting bot
+2021-06-17 02:15:04,023 - INFO - <module> - 179 - Main: coglist: ['admin.py', 'cool.py', 'errorhandler.py', 'guild_listener.py', 'maintenance.py', 'member_listener.py', 'newshow.py', 'ormd_listener.py', 'parmtest.py', 'presence.py', 'redalert.py', 'showme.py', 'whoismafdet.py']
+2021-06-17 02:15:04,052 - INFO - <module> - 192 - Main: Extensions loaded
+2021-06-17 02:15:04,053 - INFO - <module> - 288 - create app
+2021-06-17 02:15:04,062 - INFO - <module> - 313 - start keep alive server
+2021-06-17 02:15:04,063 - INFO - <module> - 315 - keep aliv server started
+2021-06-17 02:15:04,113 - WARNING - _log - 225 -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2021-06-17 02:15:04,113 - INFO - _log - 225 -  * Running on http://172.18.0.140:8000/ (Press CTRL+C to quit)
+2021-06-17 02:15:04,251 - INFO - hello_world - 293 - inside hello_world
+2021-06-17 02:15:04,255 - INFO - _log - 225 - 172.18.0.1 - - [17/Jun/2021 02:15:04] "GET / HTTP/1.1" 200 -
+2021-06-17 02:15:06,602 - INFO - on_ready - 224 - Main: Bot logged in and ready!
+2021-06-17 02:15:06,603 - INFO - on_ready - 225 - Main: username: Mafdet
+2021-06-17 02:15:06,603 - INFO - on_ready - 226 - Main: id: 617400220296413196
+2021-06-17 02:15:06,603 - INFO - on_ready - 227 - Main: owner: 435170406748520448
+2021-06-17 02:15:06,604 - INFO - on_ready - 237 - Main: Setting presence
+2021-06-17 02:15:31,038 - INFO - test - 298 - inside flask test
+2021-06-17 02:15:31,039 - ERROR - log_exception - 1454 - Exception on /test [GET]
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "mafdet.py", line 299, in test
+    return send_file(
+NameError: name 'send_file' is not defined
+2021-06-17 02:15:31,040 - INFO - _log - 225 - 172.18.0.1 - - [17/Jun/2021 02:15:31] "[35m[1mGET /test HTTP/1.1[0m" 500 -
+2021-06-17 02:16:31,695 - INFO - <module> - 51 - Main: Logs started.
+2021-06-17 02:16:31,696 - INFO - <module> - 124 - Main: Starting bot
+2021-06-17 02:16:31,752 - INFO - <module> - 179 - Main: coglist: ['admin.py', 'cool.py', 'errorhandler.py', 'guild_listener.py', 'maintenance.py', 'member_listener.py', 'newshow.py', 'ormd_listener.py', 'parmtest.py', 'presence.py', 'redalert.py', 'showme.py', 'whoismafdet.py']
+2021-06-17 02:16:31,763 - INFO - <module> - 192 - Main: Extensions loaded
+2021-06-17 02:16:31,765 - INFO - <module> - 288 - create app
+2021-06-17 02:16:31,768 - INFO - <module> - 313 - start keep alive server
+2021-06-17 02:16:31,768 - INFO - <module> - 315 - keep aliv server started
+2021-06-17 02:16:31,819 - WARNING - _log - 225 -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2021-06-17 02:16:31,820 - INFO - _log - 225 -  * Running on http://172.18.0.140:8000/ (Press CTRL+C to quit)
+2021-06-17 02:16:31,915 - INFO - hello_world - 293 - inside hello_world
+2021-06-17 02:16:31,916 - INFO - _log - 225 - 172.18.0.1 - - [17/Jun/2021 02:16:31] "GET / HTTP/1.1" 200 -
+2021-06-17 02:16:34,241 - INFO - on_ready - 224 - Main: Bot logged in and ready!
+2021-06-17 02:16:34,241 - INFO - on_ready - 225 - Main: username: Mafdet
+2021-06-17 02:16:34,241 - INFO - on_ready - 226 - Main: id: 617400220296413196
+2021-06-17 02:16:34,241 - INFO - on_ready - 227 - Main: owner: 435170406748520448
+2021-06-17 02:16:34,242 - INFO - on_ready - 237 - Main: Setting presence
+2021-06-17 02:17:04,132 - INFO - test - 298 - inside flask test
+2021-06-17 02:17:04,133 - ERROR - log_exception - 1454 - Exception on /test [GET]
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "mafdet.py", line 299, in test
+    return app.send_file(
+AttributeError: 'Flask' object has no attribute 'send_file'
+2021-06-17 02:17:04,142 - INFO - _log - 225 - 172.18.0.1 - - [17/Jun/2021 02:17:04] "[35m[1mGET /test HTTP/1.1[0m" 500 -
+2021-06-17 02:19:53,555 - INFO - <module> - 53 - Main: Logs started.
+2021-06-17 02:19:53,555 - INFO - <module> - 126 - Main: Starting bot
+2021-06-17 02:19:53,634 - INFO - <module> - 181 - Main: coglist: ['admin.py', 'cool.py', 'errorhandler.py', 'guild_listener.py', 'maintenance.py', 'member_listener.py', 'newshow.py', 'ormd_listener.py', 'parmtest.py', 'presence.py', 'redalert.py', 'showme.py', 'whoismafdet.py']
+2021-06-17 02:19:53,649 - INFO - <module> - 194 - Main: Extensions loaded
+2021-06-17 02:19:53,650 - INFO - <module> - 290 - create app
+2021-06-17 02:19:53,654 - INFO - <module> - 315 - start keep alive server
+2021-06-17 02:19:53,654 - INFO - <module> - 317 - keep aliv server started
+2021-06-17 02:19:53,717 - WARNING - _log - 225 -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2021-06-17 02:19:53,718 - INFO - _log - 225 -  * Running on http://172.18.0.140:8000/ (Press CTRL+C to quit)
+2021-06-17 02:19:53,802 - INFO - hello_world - 295 - inside hello_world
+2021-06-17 02:19:53,803 - INFO - _log - 225 - 172.18.0.1 - - [17/Jun/2021 02:19:53] "GET / HTTP/1.1" 200 -
+2021-06-17 02:19:56,099 - INFO - on_ready - 226 - Main: Bot logged in and ready!
+2021-06-17 02:19:56,100 - INFO - on_ready - 227 - Main: username: Mafdet
+2021-06-17 02:19:56,100 - INFO - on_ready - 228 - Main: id: 617400220296413196
+2021-06-17 02:19:56,100 - INFO - on_ready - 229 - Main: owner: 435170406748520448
+2021-06-17 02:19:56,100 - INFO - on_ready - 239 - Main: Setting presence
+2021-06-17 02:20:01,248 - INFO - hello_world - 295 - inside hello_world
+2021-06-17 02:20:01,249 - INFO - _log - 225 - 172.18.0.1 - - [17/Jun/2021 02:20:01] "GET / HTTP/1.1" 200 -
+2021-06-17 02:20:01,289 - INFO - _log - 225 - 172.18.0.1 - - [17/Jun/2021 02:20:01] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-06-17 02:20:04,790 - INFO - test - 300 - inside flask test
+2021-06-17 02:20:04,792 - INFO - _log - 225 - 172.18.0.1 - - [17/Jun/2021 02:20:04] "GET /test HTTP/1.1" 200 -
+2021-06-17 02:20:04,837 - INFO - _log - 225 - 172.18.0.1 - - [17/Jun/2021 02:20:04] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-06-17 02:20:49,661 - INFO - <module> - 53 - Main: Logs started.
+2021-06-17 02:20:49,661 - INFO - <module> - 126 - Main: Starting bot
+2021-06-17 02:20:49,725 - INFO - <module> - 181 - Main: coglist: ['admin.py', 'cool.py', 'errorhandler.py', 'guild_listener.py', 'maintenance.py', 'member_listener.py', 'newshow.py', 'ormd_listener.py', 'parmtest.py', 'presence.py', 'redalert.py', 'showme.py', 'whoismafdet.py']
+2021-06-17 02:20:49,742 - INFO - <module> - 194 - Main: Extensions loaded
+2021-06-17 02:20:49,742 - INFO - <module> - 290 - create app
+2021-06-17 02:20:49,745 - INFO - <module> - 315 - start keep alive server
+2021-06-17 02:20:49,746 - INFO - <module> - 317 - keep aliv server started
+2021-06-17 02:20:49,751 - WARNING - _log - 225 -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2021-06-17 02:20:49,752 - INFO - _log - 225 -  * Running on http://172.18.0.140:8000/ (Press CTRL+C to quit)
+2021-06-17 02:20:49,824 - INFO - hello_world - 295 - inside hello_world
+2021-06-17 02:20:49,826 - INFO - _log - 225 - 172.18.0.1 - - [17/Jun/2021 02:20:49] "GET / HTTP/1.1" 200 -
+2021-06-17 02:20:52,164 - INFO - on_ready - 226 - Main: Bot logged in and ready!
+2021-06-17 02:20:52,164 - INFO - on_ready - 227 - Main: username: Mafdet
+2021-06-17 02:20:52,164 - INFO - on_ready - 228 - Main: id: 617400220296413196
+2021-06-17 02:20:52,164 - INFO - on_ready - 229 - Main: owner: 435170406748520448
+2021-06-17 02:20:52,165 - INFO - on_ready - 239 - Main: Setting presence
+2021-06-17 02:20:56,435 - INFO - hello_world - 295 - inside hello_world
+2021-06-17 02:20:56,435 - INFO - _log - 225 - 172.18.0.1 - - [17/Jun/2021 02:20:56] "GET / HTTP/1.1" 200 -
+2021-06-17 02:20:56,474 - INFO - _log - 225 - 172.18.0.1 - - [17/Jun/2021 02:20:56] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-06-17 02:20:58,434 - INFO - hello_world - 295 - inside hello_world
+2021-06-17 02:20:58,435 - INFO - _log - 225 - 172.18.0.1 - - [17/Jun/2021 02:20:58] "GET / HTTP/1.1" 200 -
+2021-06-17 02:20:58,471 - INFO - _log - 225 - 172.18.0.1 - - [17/Jun/2021 02:20:58] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-06-17 02:21:01,430 - INFO - hello_world - 295 - inside hello_world
+2021-06-17 02:21:01,431 - INFO - _log - 225 - 172.18.0.1 - - [17/Jun/2021 02:21:01] "GET / HTTP/1.1" 200 -
+2021-06-17 02:21:01,464 - INFO - _log - 225 - 172.18.0.1 - - [17/Jun/2021 02:21:01] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-06-17 02:21:02,345 - INFO - test - 300 - inside flask test
+2021-06-17 02:21:02,347 - INFO - _log - 225 - 172.18.0.1 - - [17/Jun/2021 02:21:02] "GET /test HTTP/1.1" 200 -
